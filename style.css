@@ -162,7 +162,7 @@ div#input-button input {
     text-indent: 1rem;
     box-sizing: border-box;
     outline: none;
-    border: none;
+    border: .1rem solid #D9D9D9;
     border-radius: .3rem 0 0 .3rem;
 }
 div#input-button input:focus {
