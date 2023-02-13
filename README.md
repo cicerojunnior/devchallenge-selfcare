@@ -2,7 +2,7 @@
   
 
 
-👉 <a href="https://cicerojunnior.github.io/devchallenge-selfcare/">PROJETO ATUAL</a>  
+👉 <a href="https://cicerojunnior.github.io/devchallenge-selfcare/" target="_blank">PROJETO ATUAL</a>  
 
 <p>
   Desafio proposto no GitHub da <a href="https://github.com/thaysagomes/selfcare" target="_blank">Thaysa Gomes</a>  
