@@ -132,8 +132,11 @@ div#opcoes-rodape {
     flex-direction: column;
     margin: 1.5rem auto;
 }
-div#opcoes-rodape > span:hover {
+div#opcoes-rodape span {
+    width: max-content;
     cursor: pointer;
+}
+div#opcoes-rodape > span:hover {
     text-decoration: underline;
     color: #495057;
 }
@@ -169,13 +172,19 @@ div#input-button input:focus {
     border: .1rem solid #5CA720;
 }
 
-div#input-button button{
+div#input-button button {
+    cursor: pointer;
     padding: 0 1.2rem;
     height: 100%;
     border: none;
     background-color: #5CA720;
     color: #fff;
     border-radius: 0 .3rem .3rem 0;
+    transition: .1s all;
+}
+div#input-button button:active {
+    transform: scale(.95);
+    outline: .1rem solid #5CA720;
 }
 
 div#midias-flags {
