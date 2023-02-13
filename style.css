@@ -84,6 +84,7 @@ section div#produtos {
 div.produto-unidade {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 div.produto-unidade img {
     width: 100%;
