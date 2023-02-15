@@ -227,6 +227,9 @@ span.line {
     }
 
     @media (max-width: 35.625rem) {
+        body {
+            min-width: 19rem;
+        }
         section#cabecalho,
         section#secao-produtos,
         div#titulo,
@@ -236,9 +239,13 @@ span.line {
         div#opcoes {
             width: 6rem;
         }
-        div#opcoes img {
+        section#cabecalho img {
             width: 1rem;
             height: 1rem;
+        }
+        section#cabecalho span {
+            height: 1rem;
+            font-size: 1rem;
         }
         section div#produtos {
             grid-template-columns: repeat(2, 1fr);
